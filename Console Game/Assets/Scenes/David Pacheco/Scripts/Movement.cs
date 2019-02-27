@@ -47,6 +47,7 @@ public class Movement : MonoBehaviour {
         if (other2.gameObject.tag == "Ramp")
         {
             ramp = false;
+            scale = 0;
 
         }
     }
