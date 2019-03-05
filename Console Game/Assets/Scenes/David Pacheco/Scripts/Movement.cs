@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour {
 
-    public float speed = 10.0f;
-    public float rotationSpeed = 100f, scale = 0f, rotation;
+    public float speed = 10.0f, speedHori = 4.0f;
+    public float rotationSpeed = 90f, scale = 0f, rotation;
     public bool ramp = false;
 
 	void Start () {
@@ -56,11 +56,17 @@ public class Movement : MonoBehaviour {
     {
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            rotationSpeed = 150f;
+            rotationSpeed = 85f;
+            speed = 7.5f;
+            float translation = Input.GetAxis("Horizontal") * (speedHori * Input.GetAxis("Vertical"));
+            translation *= Time.deltaTime;
+            transform.Translate(-translation , 0, 0);
         }
         else if (!Input.GetKey(KeyCode.LeftShift))
         {
-            rotationSpeed = 100f;
+            rotationSpeed = 90f;
+            speed = 10.0f;
         }
     }
+   
 }
