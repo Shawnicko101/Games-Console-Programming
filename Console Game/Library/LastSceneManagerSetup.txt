@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/Marcin Pilarczyk/Marcin's Level.unity
-=======
-- path: Assets/Scenes/Benjamin Mace/Bens Level 2.unity
->>>>>>> 9a636b5407cf7a6a23122e9fe8b81969a81fac83
   isLoaded: 1
   isActive: 1
