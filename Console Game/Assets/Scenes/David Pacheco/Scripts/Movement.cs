@@ -65,7 +65,7 @@ public class Movement : MonoBehaviour {
         else if (!Input.GetKey(KeyCode.LeftShift))
         {
             rotationSpeed = 90f;
-            speed = 10.0f;
+            speed = 20.0f;
         }
     }
    
