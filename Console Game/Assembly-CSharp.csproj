@@ -61,10 +61,121 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\Camera.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\CameraSpot.cs" />
+=======
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\Antialiasing.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\Bloom.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\Blur.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\CreaseShading.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\DepthOfField.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\Fisheye.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\GlobalFog.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\Grayscale.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\MotionBlur.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\Quads.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\SepiaTone.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\SunShafts.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\TiltShift.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\Tonemapping.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\Triangles.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\Twirl.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Scripts\Vortex.cs" />
+    <Compile Include="Assets\Low Poly Egypt Starter Kit\Scripts\Cam.cs" />
+>>>>>>> 4f27d3de36926cb69fb863549bcbc2da0ec65430
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scenes\Marcin Pilarczyk\Scripts\MovementBackup.cs" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
     <Reference Include="UnityEditor.StandardEvents">
+<<<<<<< HEAD
       <HintPath>C:/Users/David/Desktop/Games-Console-Programming/Console Game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
@@ -75,6 +186,18 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/David/Desktop/Games-Console-Programming/Console Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+=======
+      <HintPath>E:/Games-Console-Programming/Console Game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>E:/Games-Console-Programming/Console Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>E:/Games-Console-Programming/Console Game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>E:/Games-Console-Programming/Console Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+>>>>>>> 4f27d3de36926cb69fb863549bcbc2da0ec65430
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -254,7 +377,11 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
+<<<<<<< HEAD
       <HintPath>C:/Users/David/Desktop/Games-Console-Programming/Console Game/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+=======
+      <HintPath>E:/Games-Console-Programming/Console Game/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+>>>>>>> 4f27d3de36926cb69fb863549bcbc2da0ec65430
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -275,10 +402,17 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
+<<<<<<< HEAD
       <HintPath>C:/Users/David/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/David/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+=======
+      <HintPath>C:/Users/Martin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>C:/Users/Martin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+>>>>>>> 4f27d3de36926cb69fb863549bcbc2da0ec65430
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
