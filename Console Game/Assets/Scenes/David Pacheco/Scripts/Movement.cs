@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour {
 
-    public float speed = 10.0f, speedHori = 4.0f;
+    public float speed = 20.0f, speedHori = 4.0f;
     public float rotationSpeed = 90f, scale = 0f, rotation;
     public bool ramp = false;
 
@@ -27,7 +27,7 @@ public class Movement : MonoBehaviour {
 
 
             rotation *= Time.deltaTime;
-            transform.Rotate(0, rotation * translation * (speed / 1.5f), 0);
+            transform.Rotate(0, rotation * translation * (10f / 1.5f), 0);
         }
     }
 
@@ -65,7 +65,7 @@ public class Movement : MonoBehaviour {
         else if (!Input.GetKey(KeyCode.LeftShift))
         {
             rotationSpeed = 90f;
-            speed = 10.0f;
+            speed = 20.0f;
         }
     }
    
