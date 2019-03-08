@@ -8,4 +8,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Settings Scene.unity
+    guid: d422757cc08eb6c42ab7bbbfd82e1fd7
+  - enabled: 1
+    path: Assets/UI.unity
+    guid: 89d24d73b1081b647be290c8802e48b3
+  - enabled: 1
+    path: Assets/Scenes/Benjamin Mace/Bens Level 2.unity
+    guid: 2c3eb75c4dc1cf74fa57c75957ed1285
+  - enabled: 1
+    path: Assets/Scenes/Conor Lynch/Conor's Level.unity
+    guid: 9a7c9301f39066748a1203ba4182adc7
+  - enabled: 1
+    path: Assets/Scenes/David Pacheco/David's Level.unity
+    guid: f40c88973e56d3a4cb0943631d785588
+  - enabled: 1
+    path: Assets/Scenes/Marcin Pilarczyk/Marcin's Level.unity
+    guid: 760585e8c931b2b419d653f9b6c627b4
   m_configObjects: {}
