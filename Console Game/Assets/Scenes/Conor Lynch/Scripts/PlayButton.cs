@@ -20,6 +20,6 @@ public class PlayButton : MonoBehaviour
 
     public void LoadScene()
     {
-        SceneManager.LoadScene("Conor's Level");
+        SceneManager.LoadScene("Choose Map");
     }
 }

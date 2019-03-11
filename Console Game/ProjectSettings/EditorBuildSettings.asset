@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Marcin Pilarczyk/Marcin's Level.unity
     guid: 760585e8c931b2b419d653f9b6c627b4
+  - enabled: 1
+    path: Assets/Choose Map.unity
+    guid: 31f9d38c584a2744a9edabdf99ec1f93
+  - enabled: 1
+    path: Assets/Scenes/Shawn Hickens/Shawn's Level.unity
+    guid: 97d4dc9ca42484a42b2e01635ddf3e29
   m_configObjects: {}
