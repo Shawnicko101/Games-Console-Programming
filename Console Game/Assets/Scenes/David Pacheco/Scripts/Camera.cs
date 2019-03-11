@@ -4,17 +4,20 @@ using UnityEngine;
 
 public class Camera : MonoBehaviour {
 
-    public Transform cameraSpot;
+    public Transform target;
+    public Vector3 offset;
+    public float speed;
 
     // Use this for initialization
     void Start () {
-		
+        speed = 20.0f;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-            transform.position = Vector3.MoveTowards(transform.position, cameraSpot.position, 3 * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, target.position + offset, speed * Time.deltaTime);
+        transform.LookAt(target);
 
     }
 }
