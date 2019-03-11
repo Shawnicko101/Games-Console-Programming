@@ -1,16 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/UI.unity
-=======
-<<<<<<< HEAD
-- path: Assets/Scenes/Benjamin Mace/Bens Level 2.unity
-=======
-<<<<<<< HEAD
-- path: Assets/Scenes/Shawn Hickens/Shawn's Level.unity
-=======
-- path: Assets/Scenes/David Pacheco/David's Level.unity
->>>>>>> 07397888ab2cb6f540461cf7b4355f2c663bead4
->>>>>>> c9c937ba43e3618a4eee92bbbd6fa989af064cdb
->>>>>>> 09f5639f0beda9e9fafc5e3227cb3d473c624334
   isLoaded: 1
   isActive: 1
