@@ -62,6 +62,15 @@ public class Movement : MonoBehaviour {
         }
     }
 
+    public void OnTriggerEnter(Collider other3)
+    {
+        if (other3.gameObject.tag == "Coin")
+        {
+            Destroy(other3.gameObject);
+
+        }
+    }
+
     public void OnTriggerExit(Collider other2)
     {
         if (other2.gameObject.tag == "Ramp")
