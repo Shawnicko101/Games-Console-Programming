@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scenes\Benjamin Mace\Scripts\TestPickup.cs" />
     <Compile Include="Assets\Scenes\Conor Lynch\Scripts\ChangeLevel.cs" />
     <Compile Include="Assets\Scenes\Conor Lynch\Scripts\CheckPoint.cs" />
+    <Compile Include="Assets\Scenes\Conor Lynch\Scripts\FreezeDestroy.cs" />
     <Compile Include="Assets\Scenes\Conor Lynch\Scripts\Laps.cs" />
     <Compile Include="Assets\Scenes\Conor Lynch\Scripts\PlayButton.cs" />
     <Compile Include="Assets\Scenes\Conor Lynch\Scripts\PowerUp.cs" />

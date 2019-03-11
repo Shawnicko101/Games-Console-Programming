@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Movement : MonoBehaviour {
 
@@ -16,7 +17,7 @@ public class Movement : MonoBehaviour {
     private Rigidbody rb;
     public float downTime = 0;
     public float coolDownTime = 2;
-    public bool lavaSpeed = false;     
+    public bool lavaSpeed = false, boost = false, freeze = false;     
 
     void Start () {
         rb = GetComponent<Rigidbody>();
@@ -51,6 +52,10 @@ public class Movement : MonoBehaviour {
         {
             GetComponent<Transform>().eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("UI");
+        }
     }
 
     public void OnTriggerStay(Collider other)
@@ -64,12 +69,23 @@ public class Movement : MonoBehaviour {
         }
         if (other.gameObject.tag == "Lava")
         {
-            Debug.Log("it work?");
             lavaSpeed = true;
             speed = 1;
             jumpHeight = 10;
 
         }
+        if (other.gameObject.tag == "Boost")
+        {
+            speed = 100f;
+            boost = true;
+        }
+        if (other.gameObject.tag == "Freeze")
+        {
+            speed = 3f;
+            jumpHeight = 10;
+            freeze = true;
+        }
+
     }
 
     public void OnTriggerEnter(Collider other3)
@@ -92,7 +108,21 @@ public class Movement : MonoBehaviour {
         }
         if (other2.gameObject.tag == "Lava")
         {
+            jumpHeight = 70;
             lavaSpeed = false;
+        }
+
+        if (other2.gameObject.tag == "Boost")
+        {
+            speed = 20.0f;
+            boost = false;
+        }
+
+        if (other2.gameObject.tag == "Freeze")
+        {
+            speed = 20.0f;
+            jumpHeight = 70;
+            freeze = false;
         }
     }
 
@@ -109,7 +139,7 @@ public class Movement : MonoBehaviour {
             translation *= Time.deltaTime;
             transform.Translate(-translation , 0, 0);
         }
-        else if (!Input.GetKey(KeyCode.LeftShift)&& lavaSpeed == false)
+        else if (!Input.GetKey(KeyCode.LeftShift)&& lavaSpeed == false && boost == false && freeze == false)
         {
 
             rotationSpeed = 90f;
@@ -129,7 +159,7 @@ public class Movement : MonoBehaviour {
                 return;
             }
 
-            Instantiate(Freeze, gameObject.transform.position + (transform.forward * 2), Quaternion.Euler(90, 0, 0));
+            Instantiate(Freeze, gameObject.transform.position + (transform.forward * -2), Quaternion.Euler(90, 0, 0));
             last_Power = Time.time;
         }
     }

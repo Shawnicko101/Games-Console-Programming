@@ -8,6 +8,8 @@ TagManager:
   - Camera Spot
   - Lava
   - Coin
+  - Boost
+  - Freeze
   layers:
   - Default
   - TransparentFX
