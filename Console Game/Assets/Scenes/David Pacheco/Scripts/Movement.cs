@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour {
 
-    public GameObject Freeze;
+    public GameObject Freeze,Bike;
     public float speed = 20.0f, speedHori = 4.0f;
     public float rotationSpeed = 90f, scale = 0f, rotation;
     public bool ramp = false;
     public float power_cooldown = 4.0f;
     public float last_Power = 0.0f;
+
 
     public float jumpHeight = 70f;
     private Rigidbody rb;
@@ -45,6 +46,10 @@ public class Movement : MonoBehaviour {
         
             rb.AddForce(Vector3.up * jumpHeight, ForceMode.Impulse);
             downTime = Time.time + coolDownTime;
+        }
+        if (Input.GetButton("Rotate"))
+        {
+            GetComponent<Transform>().eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
         }
     }
 

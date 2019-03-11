@@ -176,6 +176,11 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114137282718641304, guid: 8c98845ccc2ddea4abcb68f0808c6258,
+        type: 2}
+      propertyPath: Bike
+      value: 
+      objectReference: {fileID: 733396530}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c98845ccc2ddea4abcb68f0808c6258, type: 2}
   m_IsPrefabAsset: 0
@@ -279,6 +284,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 286876325}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &733396530 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1368133870647498, guid: 8c98845ccc2ddea4abcb68f0808c6258,
+    type: 2}
+  m_PrefabInternal: {fileID: 120593355}
 --- !u!1 &852148942
 GameObject:
   m_ObjectHideFlags: 0
