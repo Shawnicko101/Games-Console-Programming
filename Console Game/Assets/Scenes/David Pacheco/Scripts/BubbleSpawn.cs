@@ -17,7 +17,7 @@ public class BubbleSpawn : MonoBehaviour {
 
         timer += Time.deltaTime;
 
-        if (timer > 5.0f)
+        if (timer > 2.0f)
         {
             randomNum = Random.Range(0, 6);
 
