@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Conor Lynch/Conor's Level.unity
-=======
-- path: Assets/Scenes/David Pacheco/David's Level.unity
->>>>>>> 39bcae107bc7600120938d648ddf542d9cba1ab5
+- path: Assets/UI.unity
   isLoaded: 1
   isActive: 1

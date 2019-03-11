@@ -23,7 +23,7 @@ public class Laps : MonoBehaviour
     void Update()
     {
         Lap = currentLap;
-        checkpointA = checkPointArray;
+        //checkpointA = checkPointArray;
     }
 
 }

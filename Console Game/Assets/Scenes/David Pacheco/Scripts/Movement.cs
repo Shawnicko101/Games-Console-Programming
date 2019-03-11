@@ -8,22 +8,14 @@ public class Movement : MonoBehaviour {
     public float speed = 20.0f, speedHori = 4.0f;
     public float rotationSpeed = 90f, scale = 0f, rotation;
     public bool ramp = false;
-<<<<<<< HEAD
     public float power_cooldown = 4.0f;
     public float last_Power = 0.0f;
 
-    void Start () {
-		
-	}
-	
-	void Update () {
-        Ability();
-=======
     public float jumpHeight = 70f;
     private Rigidbody rb;
     public float downTime = 0;
     public float coolDownTime = 2;
-    public bool lavaSpeed = false;
+    public bool lavaSpeed = false;     
 
     void Start () {
         rb = GetComponent<Rigidbody>();
@@ -31,12 +23,11 @@ public class Movement : MonoBehaviour {
 	}
 
     void Update () {
-
->>>>>>> 39bcae107bc7600120938d648ddf542d9cba1ab5
         OnButtonPress();
-        
+            Ability();
 
-        float translation = Input.GetAxis("Vertical") * speed;
+
+    float translation = Input.GetAxis("Vertical") * speed;
 
         translation *= Time.deltaTime;
         transform.Translate(0, 0, translation);
@@ -123,7 +114,6 @@ public class Movement : MonoBehaviour {
 
     }
 
-<<<<<<< HEAD
     public void Ability()
     {
         if (Input.GetKey(KeyCode.Q))
@@ -138,8 +128,4 @@ public class Movement : MonoBehaviour {
             last_Power = Time.time;
         }
     }
-
-=======
-   
->>>>>>> 39bcae107bc7600120938d648ddf542d9cba1ab5
 }

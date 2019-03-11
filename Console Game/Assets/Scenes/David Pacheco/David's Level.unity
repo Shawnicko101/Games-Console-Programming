@@ -4036,12 +4036,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b3a2341880b5e1489ebd9902c0a525e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Freeze: {fileID: 0}
   speed: 10
   speedHori: 10
   rotationSpeed: 100
   scale: 0
   rotation: 0
   ramp: 0
+  power_cooldown: 4
+  last_Power: 0
   jumpHeight: 70
   downTime: 0
   coolDownTime: 2
