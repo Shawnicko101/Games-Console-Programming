@@ -159,7 +159,7 @@ public class Movement : MonoBehaviour {
                 return;
             }
 
-            Instantiate(Freeze, gameObject.transform.position + (transform.forward * -2), Quaternion.Euler(90, 0, 0));
+            Instantiate(Freeze, gameObject.transform.position + (transform.forward * -7), Quaternion.Euler(90, 0, 0));
             last_Power = Time.time;
         }
     }
