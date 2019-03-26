@@ -72,8 +72,11 @@
     <Compile Include="Assets\MagicArsenal\Effects\Scripts\MagicLightFlicker.cs" />
     <Compile Include="Assets\MagicArsenal\Effects\Scripts\MagicRotation.cs" />
     <Compile Include="Assets\Scenes\Benjamin Mace\Scripts\TestPickup.cs" />
+    <Compile Include="Assets\Scenes\Conor Lynch\Scripts\Ability2.cs" />
+    <Compile Include="Assets\Scenes\Conor Lynch\Scripts\Ability4.cs" />
     <Compile Include="Assets\Scenes\Conor Lynch\Scripts\ChangeLevel.cs" />
     <Compile Include="Assets\Scenes\Conor Lynch\Scripts\CheckPoint.cs" />
+    <Compile Include="Assets\Scenes\Conor Lynch\Scripts\FireEffect.cs" />
     <Compile Include="Assets\Scenes\Conor Lynch\Scripts\FreezeDestroy.cs" />
     <Compile Include="Assets\Scenes\Conor Lynch\Scripts\Laps.cs" />
     <Compile Include="Assets\Scenes\Conor Lynch\Scripts\PlayButton.cs" />
@@ -84,6 +87,11 @@
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\BubbleSpawn.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\Camera.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\CameraSpot.cs" />
+    <Compile Include="Assets\Scenes\David Pacheco\Scripts\Character1.cs" />
+    <Compile Include="Assets\Scenes\David Pacheco\Scripts\Character2.cs" />
+    <Compile Include="Assets\Scenes\David Pacheco\Scripts\Character3.cs" />
+    <Compile Include="Assets\Scenes\David Pacheco\Scripts\Character4.cs" />
+    <Compile Include="Assets\Scenes\David Pacheco\Scripts\Character5.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\Coin.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\Movement.cs" />
     <Compile Include="Assets\Scenes\Marcin Pilarczyk\Scripts\MovementBackup.cs" />

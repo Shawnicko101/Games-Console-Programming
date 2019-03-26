@@ -175,7 +175,7 @@ GameObject:
   - component: {fileID: 54482264540083922}
   - component: {fileID: 75765143737233906}
   - component: {fileID: 65021755464643352}
-  - component: {fileID: 114802461413649480}
+  - component: {fileID: 114420186866390044}
   m_Layer: 0
   m_Name: retro_car_Prefab_03
   m_TagString: Player
@@ -1144,7 +1144,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1162617996715712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 65.5977, y: 0, z: 132.35695}
+  m_LocalPosition: {x: 68.53673, y: 0, z: 142.22643}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4146742356427478}
@@ -1403,7 +1403,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114802461413649480
+--- !u!114 &114420186866390044
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1411,10 +1411,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1162617996715712}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b3a2341880b5e1489ebd9902c0a525e, type: 3}
+  m_Script: {fileID: 11500000, guid: 3f8c225de1a0a224d8c2119e97a122cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Freeze: {fileID: 1443353230668600, guid: 93eac30ef7963974a857b315ca856090, type: 2}
+  ability: {fileID: 1571082371198998, guid: 48bd14694f3651746854aa6dec1ad3cf, type: 2}
   Bike: {fileID: 1162617996715712}
   speed: 10
   speedHori: 4
