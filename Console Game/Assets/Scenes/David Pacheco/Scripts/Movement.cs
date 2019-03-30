@@ -17,7 +17,7 @@ public class Movement : MonoBehaviour {
     private Rigidbody rb;
     public float downTime = 0;
     public float coolDownTime = 2;
-    public bool lavaSpeed = false, boost = false, freeze = false;     
+    public bool lavaSpeed = false, boost = false, freeze = false, water = false;     
 
     void Start () {
         rb = GetComponent<Rigidbody>();
@@ -81,10 +81,17 @@ public class Movement : MonoBehaviour {
         }
         if (other.gameObject.tag == "Freeze")
         {
-            speed = 3f;
+            rotationSpeed = 0f;
             jumpHeight = 10;
             freeze = true;
         }
+
+        if (other.gameObject.tag == "Water")
+        {
+            rotationSpeed = 0f;
+            water = true;
+        }
+       
 
     }
 
@@ -124,6 +131,13 @@ public class Movement : MonoBehaviour {
             jumpHeight = 70;
             freeze = false;
         }
+
+        if (other2.gameObject.tag == "Water")
+        {
+            water = false;
+        }
+
+
     }
 
 
@@ -139,7 +153,7 @@ public class Movement : MonoBehaviour {
             translation *= Time.deltaTime;
             transform.Translate(-translation , 0, 0);
         }
-        else if (!Input.GetKey(KeyCode.LeftShift)&& lavaSpeed == false && boost == false && freeze == false)
+        else if (!Input.GetKey(KeyCode.LeftShift)&& lavaSpeed == false && boost == false && freeze == false && water == false)
         {
 
             rotationSpeed = 90f;

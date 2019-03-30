@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scenes\Conor Lynch\Scripts\PowerUp.cs" />
     <Compile Include="Assets\Scenes\Conor Lynch\Scripts\QuitButton.cs" />
     <Compile Include="Assets\Scenes\Conor Lynch\Scripts\SettingsButton.cs" />
+    <Compile Include="Assets\Scenes\Conor Lynch\Scripts\WaterPower.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\BubbleRotation.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\BubbleSpawn.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\Camera.cs" />

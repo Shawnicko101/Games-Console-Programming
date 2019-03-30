@@ -889,7 +889,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1514462357593914}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 69.46209, y: -0.00000047683716, z: 137.69258}
+  m_LocalPosition: {x: 52.18443, y: 0.28511333, z: 122.439095}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4325506056221924}
@@ -1414,7 +1414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25f28a29e56b35b4b95a0263b4a8d1e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ability: {fileID: 1443353230668600, guid: 93eac30ef7963974a857b315ca856090, type: 2}
+  ability: {fileID: 1105975246483476, guid: b449c88dd8b7705459d78070091d753f, type: 2}
   Bike: {fileID: 1514462357593914}
   speed: 10
   speedHori: 4
@@ -1430,6 +1430,7 @@ MonoBehaviour:
   lavaSpeed: 0
   boost: 0
   freeze: 0
+  water: 0
 --- !u!137 &137301681771188690
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

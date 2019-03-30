@@ -10,6 +10,7 @@ TagManager:
   - Coin
   - Boost
   - Freeze
+  - Water
   layers:
   - Default
   - TransparentFX

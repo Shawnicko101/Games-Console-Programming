@@ -18,7 +18,7 @@ public class Character1 : MonoBehaviour
     private Rigidbody rb;
     public float downTime = 0;
     public float coolDownTime = 2;
-    public bool lavaSpeed = false, boost = false, freeze = false;
+    public bool lavaSpeed = false, boost = false, freeze = false, water = false;
 
     void Start()
     {
@@ -89,6 +89,12 @@ public class Character1 : MonoBehaviour
             freeze = true;
         }
 
+        if (other.gameObject.tag == "Water")
+        {
+            rotationSpeed = 400;
+            water = true;
+        }
+
     }
 
     public void OnTriggerEnter(Collider other3)
@@ -127,6 +133,11 @@ public class Character1 : MonoBehaviour
             jumpHeight = 70;
             freeze = false;
         }
+
+        if (other2.gameObject.tag == "Water")
+        {
+            water = false;
+        }
     }
 
 
@@ -142,7 +153,7 @@ public class Character1 : MonoBehaviour
             translation *= Time.deltaTime;
             transform.Translate(-translation, 0, 0);
         }
-        else if (!Input.GetKey(KeyCode.LeftShift) && lavaSpeed == false && boost == false && freeze == false)
+        else if (!Input.GetKey(KeyCode.LeftShift) && lavaSpeed == false && boost == false && freeze == false && water == false)
         {
 
             rotationSpeed = 90f;
