@@ -97,6 +97,7 @@
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\Character5.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\Coin.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scenes\David Pacheco\Scripts\UIcontroller.cs" />
     <Compile Include="Assets\Scenes\Marcin Pilarczyk\Scripts\MovementBackup.cs" />
     <Compile Include="Assets\Scenes\Shawn Hickens\Scripts\BoostPadTest.cs" />
     <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
