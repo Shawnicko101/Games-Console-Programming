@@ -19,6 +19,7 @@ public class Character1 : MonoBehaviour
     public float downTime = 0;
     public float coolDownTime = 2;
     public bool lavaSpeed = false, boost = false, freeze = false, water = false;
+    public GameObject cam;
 
     void Start()
     {
@@ -35,8 +36,8 @@ public class Character1 : MonoBehaviour
         float translation = Input.GetAxis("Vertical") * speed;
 
         translation *= Time.deltaTime;
-        transform.Translate(0, 0, translation);
-
+        transform.Translate(0,0,translation);
+        //rb.AddForce(cam.transform.forward * translation * 50);
         if (!ramp)
         {
             rotation = Input.GetAxis("Horizontal") * rotationSpeed;
@@ -51,6 +52,7 @@ public class Character1 : MonoBehaviour
             rb.AddForce(Vector3.up * jumpHeight, ForceMode.Impulse);
             downTime = Time.time + coolDownTime;
         }
+        //rotation to upright
         if (Input.GetButton("Rotate"))
         {
             GetComponent<Transform>().eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
