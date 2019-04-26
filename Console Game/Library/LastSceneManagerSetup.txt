@@ -1,4 +1,12 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Marcin Pilarczyk/Marcin's Level.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/David Pacheco/David's Level.unity
+=======
+- path: Assets/Scenes/Shawn Hickens/Shawn's Level.unity
+>>>>>>> e7da350e4129e5090ddb7175fe6ba3e020e06379
+>>>>>>> 7bfa9eeb2ce9c496f249b71352effa66a39ef33d
   isLoaded: 1
   isActive: 1

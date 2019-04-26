@@ -86,22 +86,34 @@
     <Compile Include="Assets\Scenes\Conor Lynch\Scripts\SettingsButton.cs" />
     <Compile Include="Assets\Scenes\Conor Lynch\Scripts\WaterPower.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Prefabs\CameraFollow.cs" />
+    <Compile Include="Assets\Scenes\David Pacheco\Scripts\Ability1.cs" />
+    <Compile Include="Assets\Scenes\David Pacheco\Scripts\Ability2.cs" />
+    <Compile Include="Assets\Scenes\David Pacheco\Scripts\Ability3.cs" />
+    <Compile Include="Assets\Scenes\David Pacheco\Scripts\Ability4.cs" />
+    <Compile Include="Assets\Scenes\David Pacheco\Scripts\Ability5.cs" />
+    <Compile Include="Assets\Scenes\David Pacheco\Scripts\AbilityMaster.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\BubbleRotation.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\BubbleSpawn.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\Camera.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\CameraSpot.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\CarSelect.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\Character1.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\Character2.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\Character3.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\Character4.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\Character5.cs" />
+=======
+>>>>>>> 7bfa9eeb2ce9c496f249b71352effa66a39ef33d
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\CharacterSelect.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\Coin.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\Movement.cs" />
     <Compile Include="Assets\Scenes\David Pacheco\Scripts\UIcontroller.cs" />
     <Compile Include="Assets\Scenes\Marcin Pilarczyk\Scripts\MovementBackup.cs" />
     <Compile Include="Assets\Scenes\Shawn Hickens\Scripts\BoostPadTest.cs" />
+    <Compile Include="Assets\Scenes\Shawn Hickens\Scripts\HalfPointTrigger.cs" />
+    <Compile Include="Assets\Scenes\Shawn Hickens\Scripts\LapComplete.cs" />
+    <Compile Include="Assets\Scenes\Shawn Hickens\Scripts\LapTimeManager.cs" />
     <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
     <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
     <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
@@ -172,6 +184,7 @@
     <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
     <None Include="Assets\Low Poly Egypt Starter Kit\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
     <Reference Include="UnityEditor.StandardEvents">
+<<<<<<< HEAD
       <HintPath>C:/Users/S16130076/Documents/GitHub/Games-Console-Programming/Console Game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
@@ -182,6 +195,18 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/S16130076/Documents/GitHub/Games-Console-Programming/Console Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+=======
+      <HintPath>D:/Git/Console/Games-Console-Programming/Console Game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>D:/Git/Console/Games-Console-Programming/Console Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>D:/Git/Console/Games-Console-Programming/Console Game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/Git/Console/Games-Console-Programming/Console Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+>>>>>>> 7bfa9eeb2ce9c496f249b71352effa66a39ef33d
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -361,7 +386,11 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
+<<<<<<< HEAD
       <HintPath>C:/Users/S16130076/Documents/GitHub/Games-Console-Programming/Console Game/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+=======
+      <HintPath>D:/Git/Console/Games-Console-Programming/Console Game/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+>>>>>>> 7bfa9eeb2ce9c496f249b71352effa66a39ef33d
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -385,10 +414,17 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
+<<<<<<< HEAD
       <HintPath>C:/Users/S16130076/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/S16130076/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+=======
+      <HintPath>C:/Users/S16151719/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>C:/Users/S16151719/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+>>>>>>> 7bfa9eeb2ce9c496f249b71352effa66a39ef33d
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>

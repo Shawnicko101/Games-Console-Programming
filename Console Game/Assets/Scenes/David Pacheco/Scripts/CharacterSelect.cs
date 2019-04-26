@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+<<<<<<< HEAD
 using UnityEngine.UI;
 
 public class CharacterSelect : MonoBehaviour {
@@ -12,11 +13,19 @@ public class CharacterSelect : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+=======
+
+public class CharacterSelect : MonoBehaviour {
+
+	// Use this for initialization
+	void Start () {
+>>>>>>> 7bfa9eeb2ce9c496f249b71352effa66a39ef33d
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
+<<<<<<< HEAD
         ChangeCharacter();
 
         if (Input.GetKeyDown(KeyCode.Tab))
@@ -98,3 +107,8 @@ public class CharacterSelect : MonoBehaviour {
     }
 }
 
+=======
+		
+	}
+}
+>>>>>>> 7bfa9eeb2ce9c496f249b71352effa66a39ef33d
